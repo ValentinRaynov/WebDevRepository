@@ -1,0 +1,167 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Kalam|Merriweather|Open+Sans|Reenie+Beanie|Shadows+Into+Light');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 20px;
+  background: #18121E; /* For browsers that do not support gradients */
+  background: linear-gradient(90deg, rgb(152, 75, 67), rgb(24, 18, 30));
+  width: 100%;
+}
+/* Header */
+.header {
+  font-size: 40px;
+  text-align: center;
+  height: 0px; /* removes the line below the logo */
+}
+
+.nav {
+  overflow: auto;
+  list-style-type: none;
+}
+li {
+  height: 40px;
+  float: left;
+  margin-right: 0px;
+  padding: 0 20px;
+}
+li:last-child {
+  border-right:none;
+}
+
+li a {
+  margin-left: 150px;
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+  
+
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+
+}
+li a:hover {
+  color: #666;
+}
+.current{    /* highlights current page on navigation manu */
+  color: #c28b2a;
+}
+  
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  margin-left: 13%;
+}
+/* Add a card effect for articles */
+.card1 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+.card2 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footerinfo {
+  height: 100%;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  margin-left: 13%;
+  width: 75%;
+}
+.footer {
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+  margin-left: 13%;
+  width: 75%;
+  background-color: white;
+}
+
+@Media (max-width: 400px) {
+ .leftcolumn {
+    float: none;
+   width:100%;
+  }
+}
+logoedit {
+  float:left; 
+}
+/* fonts */
+h1 {
+  font-family: "Merriweather", serif;
+  font-size: 2em;
+  margin: 1em;
+  color: black;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  margin: 1em;
+  float: left;
+  color: black;
+}
+h3 {
+  font-family: 'Kalam', cursive;
+  font-size: 110%;
+  color: black;
+}
+h4 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 110%;
+  color: black;
+}
+h5 { 
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 125%;
+  color: black;
+}
+h6 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 130%;
+  color: black;
+}
+h7 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 150%;
+  margin: 1em;
+  color: black;
+  text-align: center;
+  width:100%;
+}
+h8 {
+  font-family: "Merriweather", serif;
+  font-size: 1em;
+  margin: 2em;
+  color: black;
+}
+
+/* Comparison page */
+.card3 {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  float: left;
+  width: 75%;
+  margin-left: 13%;
+  /* COMANDA */
+}
